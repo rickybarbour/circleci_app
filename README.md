@@ -5,7 +5,7 @@
 
 An example repo of using CircleCI to build, test and deploy a simple dockerized web application.
 
-/images/allgreen1.png
+![All Green 1](/images/allgreen1.png)
 
-/images/allgreen2.png
+![All Green 2](/images/allgreen2.png)
 
