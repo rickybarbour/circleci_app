@@ -74,7 +74,7 @@ jobs:
    steps:
      - add_ssh_keys:
           fingerprints:
-            - "a3:0f:fd:fd:93:e9:45:65:2f:c3:d5:d2:19:eb:7f:9b"
+            - "5b:db:56:09:96:91:9b:2b:fd:32:dc:ed:cd:54:de:24"
      - run:
          name: Install Depenancies
          command: |
@@ -85,7 +85,7 @@ jobs:
          name: Deploy
          command: |
            # Login to deployment server and run deployment script
-           ssh root@161.35.120.84 -oStrictHostKeyChecking=no "bash deploy.sh"
+           ssh circleci@161.35.120.84 -oStrictHostKeyChecking=no "bash deploy.sh"
 
 # Orchestrate our job run sequence
 workflows:
